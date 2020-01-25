@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://momentjs.com/downloads/moment.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"  crossorigin="anonymous"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-database.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<form>
+    <label for="trainName">Train Name:</label>
+    <input type="text" id="trainName" placeholder="Type in your answer!">
+    <label for="trainDest">Train Destination:</label>
+    <input type="text" id="trainDest" placeholder="Type in your answer!">
+    <label for="trainFreq">Train Frequency:</label>
+    <input type="text" id="trainFreq" placeholder="Type in your answer!">
+    <label for="firstTrain">Next Arrival:</label>
+    <input type="time" id="firstTrain" placeholder="Type in your answer!" min="00:00" max="23:59">
+    <button id="enter">Submit</button>
+</form>
+
+<table id="trainTable" border="1">
+    <tr>
+        <th>Train Name</th>
+        <th>Train Destination</th>
+        <th>Train Frequency</th>
+        <th>Next Arrival</th>
+        <th>Minutes Away</th>
+    </tr>
+    <tr>
+
+    </tr>
+</table>
+
+<script src="assets/javascript/app.js"></script>
+</body>
+</html>
